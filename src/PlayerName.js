@@ -52,7 +52,7 @@ export default class PlayerName extends React.Component {
           <p>
             { !!this.state.score ? `Current roll: ${this.state.score}` : 'You must roll the dice first' }
             <br />
-            { this.state.sixCounter == WIN_COUNT - 1 ? `Roll one more six in a row to win` : '' }
+            { this.state.sixCounter === WIN_COUNT - 1 ? `Roll one more six in a row to win` : '' }
           </p>
           <button onClick={this.handleClick}>
             Roll the dice
