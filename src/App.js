@@ -69,7 +69,7 @@ function App() {
         <Route>
           <div className="App">
             <header className="App-header">
-              <h2>Welcome to online cassino</h2>
+              <h2>Welcome to online casino</h2>
                 <table>
                   <tr>
                     <td>
